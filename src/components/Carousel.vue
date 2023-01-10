@@ -42,7 +42,8 @@
 </template>
 
 <script setup lang="ts">
-import { debounce } from 'lodash'
+import ldsh from 'lodash'
+const { debounce } = ldsh
 
 const props = withDefaults(
   defineProps<{
